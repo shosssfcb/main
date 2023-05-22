@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author sssfc
+ *
+ */
+module newHelloWorld {
+}
