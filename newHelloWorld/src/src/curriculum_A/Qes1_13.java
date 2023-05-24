@@ -3,37 +3,37 @@ package src.curriculum_A;
 public class Qes1_13 {
 	public static void main(String[] args) {
         // 下記9個をローカル変数として宣言のみしてください
-          byte b;
-          short s;
-          int i;
-          long l;
-          float f;
-          double d;
-          char c;
-          String str;
-          boolean bo;
+          byte b; //バイト型
+          short s; //ショート型
+          int i; //イント型
+          long l; //ロング型
+          float f; //フロート型
+          double d; //ダブル型
+          char c; //チャー型
+          String str; //ストリング型
+          boolean bo; //ボーリーン型
 
         // それぞれのローカル変数をローカル内でそれぞれの初期値を代入し初期化してください
-          b = 0;
-          s = 0;
-          i = 0;
-          l = 0l;
-          f = 0.0f;
-          d = 0.0d;
-          c = '\u0000';
-          str = null;
-          bo = false;
+          b = 0; //バイト型を初期化
+          s = 0; //ショート型を初期化
+          i = 0; //イント型を初期化
+          l = 0l; //ロング型を初期化
+          f = 0.0f; //フロート型を初期化
+          d = 0.0d; //ダブル型を初期化
+          c = '\u0000'; //チャー型を初期化
+          str = null; //ストリング型を初期化
+          bo = false; //ボーリーン型を初期化
 
         // 初期化をしたそれぞれの変数に下記の値を代入してください
-          b = 10;
-          s = 100;
-          i = 1000;
-          l = 10000;
-          f = 9.5f;
-          d = 10.5;
-          c = 'a';
-          str = "ハロー";
-          bo = true;
+          b = 10; //バイト型に10を代入
+          s = 100; //ショート型に100を代入
+          i = 1000; //イント型に1000を代入
+          l = 10000; //ロング型に10000を代入
+          f = 9.5f; //フロート型に9.5fを代入
+          d = 10.5; //ダブル型に10.5を代入
+          c = 'a'; //チャー型にaを代入
+          str = "ハロー"; //ストリング型にハローを代入
+          bo = true; //ボーリーン型にtrueを代入
 
         /* 下記の通りにコンソール出力されるようにしてください
            上記で作成した変数を必ず使用すること
@@ -82,11 +82,11 @@ public class Qes1_13 {
           double weight = 62.2;
           String name1 = "寿司";
 
-          System.out.println("初めまして" + name + "です");
-          System.out.println("年齢は" + old + "歳です");
-          System.out.println("身長は" + height + "cmです");
-          System.out.println("体重は" + weight + "kgです");
-          System.out.println("好きな食べ物は" + name1 + "です");
+          System.out.println("初めまして\r\n" + name + "\r\nです");
+          System.out.println("年齢は\r\n" + old + "歳\r\nです");
+          System.out.println("身長は\r\n" + height + "cm\r\nです");
+          System.out.println("体重は\r\n" + weight + "kg\r\nです");
+          System.out.println("好きな食べ物は\r\n" + name1 + "\r\nです");
 
 
         /* 6で作成した自己紹介に続いてBMIが出力されるようにしてください
@@ -115,12 +115,12 @@ public class Qes1_13 {
           name1 = "オムライス";
           bmi = 22.6;
 
-          System.out.println("初めまして" + name + "です");
-          System.out.println("年齢は" + old + "歳です");
-          System.out.println("身長は" + height + "cmです");
-          System.out.println("体重は" + weight + "kgです");
-          System.out.println("好きな食べ物は" + name1 + "です");
-          System.out.println("BMIは" + bmi + "です");
+          System.out.println("初めまして\r\n" + name + "\r\nです");
+          System.out.println("年齢は\r\n" + old + "歳\r\nです");
+          System.out.println("身長は\r\n" + height + "cm\r\nです");
+          System.out.println("体重は\r\n" + weight + "kg\r\nです");
+          System.out.println("好きな食べ物は\r\n" + name1 + "\r\nです");
+          System.out.println("BMIは\r\n" + bmi + "\r\nです");
 
 
         /* 8で使用した変数【年齢・身長・体重】の数値を和算で自己代入し、下記の通りコンソールに出力してください
@@ -139,12 +139,12 @@ public class Qes1_13 {
           name1 = "オムライス";
           bmi = 11.31;
 
-          System.out.println("初めまして" + name + "です");
-          System.out.println("年齢は" + old + "歳です");
-          System.out.println("身長は" + height + "cmです");
-          System.out.println("体重は" + weight + "kgです");
-          System.out.println("好きな食べ物は" + name1 + "です");
-          System.out.println("BMIは" + bmi + "です");
+          System.out.println("初めまして\r\n" + name + "\r\nです");
+          System.out.println("年齢は\r\n" + old + "歳\r\nです");
+          System.out.println("身長は\r\n" + height + "cm\r\nです");
+          System.out.println("体重は\r\n" + weight + "kg\r\nです");
+          System.out.println("好きな食べ物は\r\n" + name1 + "\r\nです");
+          System.out.println("BMIは\r\n" + bmi + "\r\nです");
 
         // 8で使用した年齢が25歳以上ならtrueが出力されるようにしてください。ただしif文は使いません
 
@@ -175,7 +175,8 @@ public class Qes1_13 {
 
           strs = "168.5";
           float fl = Float.parseFloat(strs);
-          System.out.println(fl);
+          int number1 = Math.round(fl);
+          System.out.println(number1);
 
 
         // 12で変換した【年齢・身長】で【年齢が25もしくは身長が160以上】であればtrueを出力してください
